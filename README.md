@@ -5,63 +5,94 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Directory Structure](#directory-structure)
+- [Code Overview](#code-overview)
+  - [Sunflower Growth](#sunflower-growth)
+  - [Cactus Growth](#cactus-growth)
+  - [Oak Tree Growth](#oak-tree-growth)
+  - [Ivy Growth](#ivy-growth)
 - [Contributing](#contributing)
+- Future Improvements
 
 ## Introduction
 
-Green Sounds is an interactive art project developed for the ART 221Y course. The project aims to explore the relationship between sound and visual art by creating an immersive audio-visual experience. Using various sensors and visual elements, Green Sounds reacts to environmental inputs to produce unique soundscapes and visual patterns.
+Project Statement
 
-## Features
+Green Sounds is an interactive app that invites users to create music and visuals inspired by nature. Users
+select from a variety of plants, each with a unique sound profile reflecting its growth and traits. For instance, a
+fast-growing vine like ivy might produce vibrant, rhythmic melodies evoking energy, while a sturdy oak generates
+deep, harmonious tones symbolizing strength. Delicate jasmine creates gentle, soothing sounds, while a cactus
+offers sparse, calm notes that mirror its slow growth and resilience.
+The app translates plant characteristics into calming soundscapes paired with soft animations of leaves unfurling
+or flowers blooming. Users can mix different plant sounds to build personalized compositions, blending lively
+wildflowers with tranquil lotus tones for a balanced experience.
+With an intuitive interface, users can explore and experiment until they find the perfect mix. Once a
+composition is complete, it can be recorded and shared as a short video featuring visuals that match the sound.
+Green Sounds also serves as an educational tool, offering brief insights about each plant’s traits and ecological
+importance. Users learn about plant growth, habitats, and cultural significance, fostering a deeper appreciation
+for nature while engaging in a creative and peaceful experience.
 
-- **Interactive Soundscapes**: Real-time audio generation based on user interaction.
-- **Visual Art Integration**: Dynamic visual elements that respond to sound and user inputs.
-- **Sensor Inputs**: Utilizes various sensors to capture environmental data.
-- **Customizable**: Easily customizable to fit different environments and use cases.
+As a proof of concept for the application, I created a demo video with a sunflower, cactus, oak and ivy and combined their sounds at the end to produce a melody. Please view the infograph greensoundsInfoGraphic.png to learn about the educational, cognitive and gamified benefits of Green Sounds.
 
 ## Installation
 
 To run the Green Sounds project, follow these steps:
 
-1. **Clone the repository**:
-   ```sh
-   git clone https://github.com/akkajoe/green-sounds.git
-   cd green-sounds
-   ```
+## Code Overview
 
-2. **Install dependencies**:
-   Ensure you have Python and pip installed. Then, run:
-   ```sh
-   pip install -r requirements.txt
-   ```
+### Sunflower Growth
 
-3. **Setup the environment**:
-   You may need to configure environment variables or install additional software depending on the sensors and hardware you are using.
+The sunflower grows with a smooth sway and fades out after reaching maximum growth.
 
-## Usage
+```processing
+void growSunflower() {
+    // Implementation of sunflower growth
+}
 
-1. **Run the project**:
-   ```sh
-   python main.py
-   ```
-
-2. **Interacting with the installation**:
-   Follow the instructions provided in the interface to interact with the different features of the project.
-
-## Directory Structure
-
+void fadeOutSunflower() {
+    // Implementation of sunflower fade-out
+}
 ```
-green-sounds/
-├── data/                    # Directory for datasets and input files
-├── sensors/                 # Sensor integration and data collection scripts
-├── visuals/                 # Visual components and processing scripts
-├── audio/                   # Audio processing and generation scripts
-├── main.py                  # Main entry point for the project
-├── requirements.txt         # List of required libraries
-└── README.md                # Readme file
+
+### Cactus Growth
+
+The cactus grows with branching structures and fades out after reaching maximum growth.
+
+```processing
+void growCactus() {
+    // Implementation of cactus growth
+}
+
+void fadeOutCactus() {
+    // Implementation of cactus fade-out
+}
+```
+
+### Oak Tree Growth
+
+The oak tree grows with a detailed branching structure and fades out after reaching maximum growth.
+
+```processing
+void growOakTree() {
+    // Implementation of oak tree growth
+}
+
+void fadeOutOakTree() {
+    // Implementation of oak tree fade-out
+}
+```
+
+### Ivy Growth
+
+The ivy grows along surfaces and fades out after reaching maximum growth.
+
+```processing
+void growIvy() {
+    // Implementation of ivy growth
+}
+
+void fadeOutIvy() {
+    // Implementation of ivy fade-out
+}
 ```
 
 ## Contributing
@@ -73,3 +104,11 @@ We welcome contributions to the Green Sounds project. If you have any ideas, sug
 3. Make your changes and commit them (`git commit -m 'Add some feature'`).
 4. Push to the branch (`git push origin feature-branch`).
 5. Open a pull request.
+
+## Future Improvements
+
+Cultural Information: Incorporate cultural elements and information to enrich the user experience and provide context to the audio-visual elements.
+Enhanced Interactivity: Add more interactive features to engage users and allow them to influence the audio-visual outputs in more complex ways.
+Complete Application: Develop a full-fledged application with a user-friendly interface, making it accessible to a wider audience.
+
+For more details, you can view the [GreenSoundsCode directory on GitHub](https://github.com/akkajoe/green-sounds/tree/main/GreenSoundsCode).
