@@ -11,7 +11,7 @@
   - [Oak Tree Growth](#oak-tree-growth)
   - [Ivy Growth](#ivy-growth)
 - [Contributing](#contributing)
-- Future Improvements
+- [Future Improvements](#future-improvements)
 
 ## Introduction
 
@@ -22,16 +22,18 @@ select from a variety of plants, each with a unique sound profile reflecting its
 fast-growing vine like ivy might produce vibrant, rhythmic melodies evoking energy, while a sturdy oak generates
 deep, harmonious tones symbolizing strength. Delicate jasmine creates gentle, soothing sounds, while a cactus
 offers sparse, calm notes that mirror its slow growth and resilience.
+
 The app translates plant characteristics into calming soundscapes paired with soft animations of leaves unfurling
 or flowers blooming. Users can mix different plant sounds to build personalized compositions, blending lively
 wildflowers with tranquil lotus tones for a balanced experience.
+
 With an intuitive interface, users can explore and experiment until they find the perfect mix. Once a
 composition is complete, it can be recorded and shared as a short video featuring visuals that match the sound.
 Green Sounds also serves as an educational tool, offering brief insights about each plant’s traits and ecological
 importance. Users learn about plant growth, habitats, and cultural significance, fostering a deeper appreciation
 for nature while engaging in a creative and peaceful experience.
 
-As a proof of concept for the application, I created a demo video with a sunflower, cactus, oak and ivy and combined their sounds at the end to produce a melody. Please view the infograph greensoundsInfoGraphic.png to learn about the educational, cognitive and gamified benefits of Green Sounds.
+As a proof of concept for the application, I created a demo video with a sunflower, cactus, oak and ivy and combined their sounds at the end to produce a melody. Please view the infograph [![Green Sounds Infographic](greensoundsInfoGraphic.png)](greensoundsInfoGraphic.png) to learn about the educational, cognitive and gamified benefits of Green Sounds.
 
 ## Installation
 
@@ -108,7 +110,9 @@ We welcome contributions to the Green Sounds project. If you have any ideas, sug
 ## Future Improvements
 
 Cultural Information: Incorporate cultural elements and information to enrich the user experience and provide context to the audio-visual elements.
+
 Enhanced Interactivity: Add more interactive features to engage users and allow them to influence the audio-visual outputs in more complex ways.
+
 Complete Application: Develop a full-fledged application with a user-friendly interface, making it accessible to a wider audience.
 
 For more details, you can view the [GreenSoundsCode directory on GitHub](https://github.com/akkajoe/green-sounds/tree/main/GreenSoundsCode).
