@@ -1,6 +1,6 @@
 # Green Sounds
 
-**ART 221Y Major Project**
+**ART 211Y Major Project**
 
 ## Table of Contents
 
