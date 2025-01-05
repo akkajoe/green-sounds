@@ -33,11 +33,7 @@ Green Sounds also serves as an educational tool, offering brief insights about e
 importance. Users learn about plant growth, habitats, and cultural significance, fostering a deeper appreciation
 for nature while engaging in a creative and peaceful experience.
 
-As a proof of concept for the application, I created a demo video with a sunflower, cactus, oak and ivy and combined their sounds at the end to produce a melody. Please view the infograph [![Green Sounds Infographic](greensoundsInfoGraphic.png)](greensoundsInfoGraphic.png) to learn about the educational, cognitive and gamified benefits of Green Sounds.
-
-## Installation
-
-To run the Green Sounds project, follow these steps:
+As a proof of concept for the application, I created a demo video with a sunflower, cactus, oak and ivy and combined their sounds at the end to produce a melody. Please view the infograph to learn about the educational, cognitive and gamified benefits of Green Sounds.[![Green Sounds Infographic](greensoundsInfoGraphic.png)](greensoundsInfoGraphic.png)
 
 ## Code Overview
 
